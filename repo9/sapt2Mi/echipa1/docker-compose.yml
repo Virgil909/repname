@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5009:5009"
+
+    environment:
+      POSTGRES_ADDRESS=10.226.131.44:
+      POSTGRES_DBNAME=summer_knowledge_hub:
+      POSTGRES_PASSWORD=studentPassword2025:
+      POSTGRES_PORT=5432:
+      POSTGRES_USERNAME=student:

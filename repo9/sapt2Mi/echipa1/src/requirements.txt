@@ -1,0 +1,7 @@
+flask==3.1.1
+dash==3.1.1
+sqlalchemy==2.0.41
+plotly==6.2.0
+pandas==2.3.1
+dash_bootstrap_components
+psycopg2-binary
